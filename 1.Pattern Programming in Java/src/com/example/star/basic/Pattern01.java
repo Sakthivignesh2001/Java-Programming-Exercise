@@ -6,7 +6,7 @@ package com.example.star.basic;
  * 
  */
 
-public class Pattern1 {
+public class Pattern01 {
 
 	public static void main(String[] args) {
 

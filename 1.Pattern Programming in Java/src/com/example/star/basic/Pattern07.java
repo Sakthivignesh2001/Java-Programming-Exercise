@@ -2,16 +2,18 @@ package com.example.star.basic;
 
 /*
  * 
- * 	Print E
+ * 	Print A
  * 
  * i -> row(left to right)
  * j -> column (top to bottom)
  * 
  * (n-1)/2 -> center line
  * 
+ * != ignore that value
+ * 
  */
 
-public class Pattern4 {
+public class Pattern07 {
 
 	public static void main(String[] args) {
 		
@@ -19,7 +21,11 @@ public class Pattern4 {
 		
 		for(int i = 0 ; i < n ; i++) {
 			for(int j = 0 ; j < n ; j++) {
-				if(i == 0 || i == (n-1)/2 || i == n-1 || j == 0) {
+				if((j==0 && i != 0) ||
+					(i == 0 && j != 0 && j != n-1) ||
+					(j == n-1 && i != 0) ||
+					(i == (n-1)/2)
+					) {
 					System.out.print("*");
 				}else {
 					System.out.print(" ");
@@ -27,9 +33,11 @@ public class Pattern4 {
 			}
 			System.out.println();
 		}
-		
-
-
 	}
-
 }
+
+// *** 
+//*   *
+//*****
+//*   *
+//*   *

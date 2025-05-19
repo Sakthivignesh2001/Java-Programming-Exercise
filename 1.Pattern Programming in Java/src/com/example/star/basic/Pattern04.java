@@ -2,14 +2,16 @@ package com.example.star.basic;
 
 /*
  * 
- * 	Print 5 * 5 only outside line
+ * 	Print E
  * 
  * i -> row(left to right)
  * j -> column (top to bottom)
  * 
+ * (n-1)/2 -> center line
+ * 
  */
 
-public class Pattern2 {
+public class Pattern04 {
 
 	public static void main(String[] args) {
 		
@@ -17,7 +19,7 @@ public class Pattern2 {
 		
 		for(int i = 0 ; i < n ; i++) {
 			for(int j = 0 ; j < n ; j++) {
-				if(i == 0 || j == 0 || i == n-1 || j == n-1) {
+				if(i == 0 || i == (n-1)/2 || i == n-1 || j == 0) {
 					System.out.print("*");
 				}else {
 					System.out.print(" ");
@@ -25,6 +27,7 @@ public class Pattern2 {
 			}
 			System.out.println();
 		}
+		
 
 
 	}

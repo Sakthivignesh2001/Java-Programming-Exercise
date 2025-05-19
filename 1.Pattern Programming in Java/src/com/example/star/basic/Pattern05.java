@@ -11,7 +11,7 @@ package com.example.star.basic;
  * 
  */
 
-public class Pattern5 {
+public class Pattern05 {
 
 	public static void main(String[] args) {
 		
