@@ -16,6 +16,7 @@ public class ValueSwaping {
 		System.out.println("Value1 is : " + value1);
 		System.out.println("Value2 is : " + value2);
 	}
-	
-
 }
+
+//Value1 is : Sakthi
+//Value2 is : Sakthi

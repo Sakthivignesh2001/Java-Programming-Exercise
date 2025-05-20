@@ -15,7 +15,8 @@ public class SwapTwoWords {
 		
 		System.out.println("Before Swapping : " + value1);
 		System.out.println("After Swapping: " + value2);
-
 	}
-
 }
+
+//Before Swapping : Sakthi vignesh Bala
+//After Swapping: Bala vignesh Sakthi 
