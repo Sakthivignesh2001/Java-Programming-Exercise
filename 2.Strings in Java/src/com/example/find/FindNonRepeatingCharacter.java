@@ -1,9 +1,7 @@
 package com.example.find;
 
-import java.util.Scanner;
-
 /*
-First Non-Repeating Character:
+Find Non-Repeating Character:
 	
 Given a string, find the first character that does not repeat. 
 If all characters repeat, then print '-'.
@@ -51,10 +49,6 @@ public class FindNonRepeatingCharacter {
 			System.out.println("All the char are repeated");
 		}
 		
-		
-		
-		
-
 	}
 
 }
